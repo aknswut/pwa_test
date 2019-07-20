@@ -1,6 +1,9 @@
 {
+  // インストールバナーで表示されるアプリ名
   "name":"Let's challenge PWA",
+  // ホーム画面に表示されるアプリ名
   "short_name":"PWA Sample",
+  // ホーム画面にひょうじされるアプリアイコン
   "icons": [{
     "src": "images/icon-128x128.png",
       "sizes":"128x128",
@@ -26,8 +29,12 @@
       "sizes":"512x512",
       "type": "image/png"
     }],
+    // PWA起動時のURL
   "start_url": "/pwa-sample/",
+  // ブラウザUIの表示非表示設定
   "display": "standalone",
+  // PWA起動時に表示される色
   "background_color": "#c00",
+  // PWAのアドレスバーなどの色
   "theme_color": "#000"
 }
